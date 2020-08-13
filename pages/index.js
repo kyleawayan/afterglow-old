@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import useDarkMode from 'use-dark-mode';
@@ -95,41 +94,15 @@ const photos = [
 
 export default function Home() {
   useDarkMode(false);
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
 
   return (
     <div>
-      <header className="App-header">
+      <Head>
+        <title>afterglow</title>
+      </Head>
+      <header className="App-header2">
         afterglow
       </header>
-      <div className='gallery'>
-        <Gallery photos={photos} onClick={openLightbox} />
-        <ModalGateway>
-          {viewerIsOpen ? (
-            <Modal onClose={closeLightbox}>
-              <Carousel
-                currentIndex={currentImage}
-                views={photos.map(x => ({
-                  ...x,
-                  srcset: x.srcSet,
-                  caption: x.title
-                }))}
-              />
-            </Modal>
-          ) : null}
-        </ModalGateway>
-      </div>
     </div>
   );
 }

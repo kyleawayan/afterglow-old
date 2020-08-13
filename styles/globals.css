@@ -35,6 +35,13 @@ body.dark-mode {
   font-size: x-large;
 }
 
+.App-header2 {
+  position:absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: x-large;
+}
+
 .gallery {
   margin-top: 50px;
   margin-left: 10px;
