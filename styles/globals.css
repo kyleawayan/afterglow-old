@@ -1,0 +1,42 @@
+@font-face {
+  src: url('./fonts/FormaDJRText-Regular.eot'); /* IE < 9 */
+  src: url('./fonts/FormaDJRText-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+       url('./fonts/FormaDJRText-Regular.woff2') format("woff2"),
+       url('./fonts/FormaDJRText-Regular.woff') format("woff");
+  font-family: 'FormaDJRText';
+  font-style: normal;
+  font-weight: normal;
+  }
+
+body.light-mode {
+  margin: 0;
+  font-family: 'FormaDJRText';
+  color: black;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:'pointer'
+}
+
+body.dark-mode {
+  margin: 0;
+  font-family: 'FormaDJRText';
+  color: white;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:'pointer'
+}
+
+.App-header {
+  position:absolute;
+  margin-top: -39px;
+  margin-left: 11px;
+  font-size: x-large;
+}
+
+.gallery {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
