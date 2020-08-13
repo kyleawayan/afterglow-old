@@ -47,3 +47,12 @@ body.dark-mode {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.footer {
+  position:absolute;
+  margin-top: 20px;
+  margin-left: 13px;
+  color: darkgray;
+  font-size: small;
+  padding-bottom: 20px;
+}
