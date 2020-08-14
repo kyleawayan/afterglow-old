@@ -33,4 +33,4 @@ yarn-error.log*
 # vercel
 .vercel
 pages/album
-public/pictures
+public/pictures/baf
