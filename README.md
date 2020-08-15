@@ -19,7 +19,7 @@ i recommend exporting full-res pictures and small proxies for thumbnails. put th
 public
 ├── favicon.ico
 ├── pictures
-│   ├── baf
+│   ├── your album
 │   │   ├── IMG_2457_DxO.jpg
 │   │   ├── IMG_2459_DxO.jpg
 │   │   └── previews
