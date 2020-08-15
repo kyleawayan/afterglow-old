@@ -19,7 +19,7 @@ i recommend exporting full-res pictures and small proxies for thumbnails. put th
 public
 ├── favicon.ico
 ├── pictures
-│   ├── your album
+│   ├── youralbum
 │   │   ├── IMG_2457_DxO.jpg
 │   │   ├── IMG_2459_DxO.jpg
 │   │   └── previews
@@ -36,16 +36,19 @@ second, you have to replace the photos in `const photos`. i have made a script i
 
 ```
 {
-src: "../pictures/baf/previews/IMG_2588_DxO.jpg",
+src: "../pictures/youralbum/previews/IMG_2588_DxO.jpg",
 width: 3 ,
 height: 2 ,
 },
 --- copy above me ---
 {
-src: "../pictures/baf/previews/previews",
+src: "../pictures/youralbum/previews/previews",
 internal/fs/utils.js:298
     throw err;
     ^
 ```
 
 after that just paste it into `const photos` in `sample.js` then you're good to go. install the prerequisites with `npm install` and then run it with `npm run dev`.
+
+### where did you get the title "afterglow" from
+it's from luna li's amazing song, "afterglow"✨

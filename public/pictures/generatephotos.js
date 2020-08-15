@@ -1,4 +1,4 @@
-const path = '../pictures/baf'
+const path = '../pictures/youralbum'
 var sizeOf = require('image-size');
 
 const testFolder = path;
