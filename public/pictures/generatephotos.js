@@ -18,7 +18,7 @@ fs.readdir(testFolder, (err, files) => {
     }
     console.log("width:",reduce(size.width, size.height)[0],",");
     console.log("height:",reduce(size.width, size.height)[1],",");
-    console.log("title:",`<a href="${path}/${file}" target="_blank">Download</a>`)
+    console.log("title:",`'<a href="${path}/${file}" target="_blank">Download</a>'`)
     console.log('},')
   });
 });

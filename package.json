@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "image-size": "^0.8.3",
@@ -14,6 +14,7 @@
     "react-dom": "16.13.1",
     "react-images": "^1.1.7",
     "react-photo-gallery": "^8.0.0",
+    "simple-react-lightbox": "^3.2.3-3",
     "use-dark-mode": "^2.3.1"
   }
 }
