@@ -30,7 +30,7 @@ public
 ```
 
 
-inside `/pages/` there is a template to use called `sample.js`. first, change the title on line 112 and 115. 
+inside `/pages/` there is a template to use called `sample.js`. first, change the title on line 112 and 115. note: `sample.js` is only a template with photos that are hotlinked externally, so downloading them won't work.
 
 second, you have to replace the photos in `const photos`. i have made a script in `/public/pictures/` called `generatephotos.js`. this generates what you need to put in the array. replace the path on the first line to your album. run it by using `node generatephotos.js` then it'll give you what to paste into `const photos`. right now it errors out when checking the directory so you would only copy above
 
