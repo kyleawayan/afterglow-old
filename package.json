@@ -14,7 +14,7 @@
     "react-dom": "16.13.1",
     "react-images": "^1.1.7",
     "react-photo-gallery": "^8.0.0",
-    "simple-react-lightbox": "^3.2.3-3",
+    "simple-react-lightbox": "git+https://github.com/kyleawayan/simple-react-lightbox.git",
     "use-dark-mode": "^2.3.1"
   }
 }
