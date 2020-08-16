@@ -1,5 +1,5 @@
 # afterglow ✨
-a platform for photographers to share their photos to their clients, in an easy and aesthetic looking way.
+a platform for photographers to share their photos to their clients, in an easy and aesthetic looking way. [sample](https://afterglow.awayan.com/album/sample)
 
 ![screenshot](https://i.imgur.com/MYMW1Sv.png)
 ![screenshot](https://i.imgur.com/7J5lmm5.png)
