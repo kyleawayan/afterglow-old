@@ -6,7 +6,7 @@ a platform for photographers to share their photos to their clients, in an easy 
 - clean, minimal, and simple webpage for clients to look at
 - amazing gallery layout made with [react-photo-gallery](https://github.com/neptunian/react-photo-gallery)
 - amazing lightbox made with [simple-react-lightbox](https://github.com/michelecocuccio/simple-react-lightbox)
-    - with the lightbox, you could easily download photos at high-res
+    - with the lightbox, you could easily download photos at high-res (with my [fork](https://github.com/kyleawayan/simple-react-lightbox))
 - automatic light and dark mode switching made with [use-dark-mode](https://github.com/donavon/use-dark-mode)
 
 ## this is still a very early version
