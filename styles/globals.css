@@ -57,6 +57,14 @@ body.dark-mode {
   padding-bottom: 20px;
 }
 
-a {
-  color: white;
+a.light-mode {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+
+a.dark-mode {
+  color: grey;
 }

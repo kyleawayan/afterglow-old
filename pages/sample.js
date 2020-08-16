@@ -106,6 +106,17 @@ export default function sample() {
     openLightbox(index)
   }, []);
 
+  const options = {
+    settings: {
+      slideAnimationType: 'slide',
+      overlayColor: '#000000'
+    },
+    buttons: {
+      showAutoplayButton: false,
+      showFullscreenButton: false,
+    }
+  }
+
   return (
     <div>
       <Head>
@@ -115,7 +126,7 @@ export default function sample() {
         Sample Gallery
       </header>
       <div className='gallery'>
-        <SRLWrapper images={photos} />
+        <SRLWrapper images={photos} options={options}/>
         <Gallery photos={photos} onClick={getNumber}/>
       </div>
     <div className='footer'>
