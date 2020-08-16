@@ -10,9 +10,9 @@ export default function Home() {
       <Head>
         <title>afterglow</title>
       </Head>
-      <header className="App-header2">
-        afterglow
-      </header>
+      <div className='footer'>
+        <br>still have to make a home page lol <a href="https://github.com/kyleawayan/afterglow">github</a></br>
+        </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ a platform for photographers to share their photos to their clients, in an easy 
 look to be honest i don't really know how to code, especially with all this react and next.js stuff (which was what this was built on). i really want to make like a UI and all that to add photos, because right now to make an album you have to go into the code. the end goal for this project is to make it accessible and easy to use for all photographers.
 
 ## how to use at this current state lmao
-i recommend exporting full-res pictures and small proxies for thumbnails. put the photos in the following folder structure as you will need to use my script
+i recommend exporting full-res pictures and small proxies for thumbnails. put the photos in the following folder structure as you will need to use my script. **make sure file names are the same in your main pictures folder and preview folder.**
 
 ```
 public
@@ -30,7 +30,7 @@ public
 ```
 
 
-inside `/pages/` there is a template to use called `sample.js`. first, change the title on line 112 and 115. note: `sample.js` is only a template with photos that are hotlinked externally, so downloading them won't work.
+inside `/pages/` there is a template to use called `sample.js`. first, change the title on line 112 and 115. next, change the function name on line 96. so you would replace `sample()` with your album name. for example `youralbum()`. note: `sample.js` is only a template with photos that are hotlinked externally, so downloading them won't work.
 
 second, you have to replace the photos in `const photos`. i have made a script in `/public/pictures/` called `generatephotos.js`. this generates what you need to put in the array. replace the path on the first line to your album. run it by using `node generatephotos.js` then it'll give you what to paste into `const photos`. right now it errors out when checking the directory so you would only copy above
 
