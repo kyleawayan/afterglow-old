@@ -11,7 +11,7 @@ export default function Home() {
         <title>afterglow</title>
       </Head>
       <div className='footer'>
-        <br>still have to make a home page lol <a href="https://github.com/kyleawayan/afterglow">github</a></br>
+        still have to make a home page lol <a href="https://github.com/kyleawayan/afterglow">github</a>
         </div>
     </div>
   );
