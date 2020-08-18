@@ -31,8 +31,21 @@ public
 └── vercel.svg
 ```
 
+inside `/pages/` there is a template to use called `sample.js`. note: `sample.js` is only a template with photos that are hotlinked externally, so downloading them won't work. hooking up your photos locally will make downloading work.
 
-inside `/pages/` there is a template to use called `sample.js`. first, change the title on line 112 and 115. next, change the function name on line 96. so you would replace `sample()` with your album name. for example `youralbum()`. note: `sample.js` is only a template with photos that are hotlinked externally, so downloading them won't work.
+before modifying anything, i would recommend making a folder for your album pages, like this:
+
+```
+pages
+├── _app.js
+├── album
+│   └── sample.js
+└── index.js
+```
+
+so to access your album page, the url would be `localhost:3000/album/sample`. the `album` folder is already added in `.gitignore`. 
+
+now to modify `sample.js`, change the title for your album name on line 112 and 115. next, change the function name on line 96. so you would replace `sample()` with your album name. for example `youralbum()`. after changing the function name, change the file name of `sample.js` to your album name. for example, the url for `youralbum.js` will be `localhost:3000/album/youralbum`.
 
 second, you have to replace the photos in `const photos`. i have made a script in `/public/pictures/` called `generatephotos.js`. this generates what you need to put in the array. replace the path on the first line to your album. run it by using `node generatephotos.js` then it'll give you what to paste into `const photos`. right now it errors out when checking the directory so you would only copy above
 
