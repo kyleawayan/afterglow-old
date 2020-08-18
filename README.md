@@ -15,7 +15,7 @@ a platform for photographers to share their photos to their clients, in an easy 
 look to be honest i don't really know how to code, especially with all this react and next.js stuff (which was what this was built on). i really want to make like a UI and all that to add photos, because right now to make an album you have to go into the code. the end goal for this project is to make it accessible and easy to use for all photographers.
 
 ## how to use at this current state lmao
-i recommend exporting full-res pictures and small proxies for thumbnails. put the photos in the following folder structure as you will need to use my script. **make sure file names are the same in your main pictures folder and preview folder.**
+node.js and yarn are required for this. i recommend exporting full-res pictures and small proxies for thumbnails. put the photos in the following folder structure as you will need to use my script. **make sure file names are the same in your main pictures folder and preview folder.**
 
 ```
 public
