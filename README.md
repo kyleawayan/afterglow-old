@@ -1,5 +1,6 @@
 # afterglow ✨
-a platform for photographers to share their photos to their clients, in an easy and aesthetic looking way. [sample](https://afterglow.awayan.com/album/sample)
+## i would not use this, this was my early days of coding and nothing makes sense in a real world situation. i will update or make another version from scratch soon.
+a platform for photographers to share their photos to their clients, in an easy and aesthetic looking way.
 
 ![screenshot](https://i.imgur.com/MYMW1Sv.png)
 ![screenshot](https://i.imgur.com/7J5lmm5.png)
@@ -8,7 +9,7 @@ a platform for photographers to share their photos to their clients, in an easy 
 - clean, minimal, and simple webpage for clients to look at
 - amazing gallery layout made with [react-photo-gallery](https://github.com/neptunian/react-photo-gallery)
 - amazing lightbox made with [simple-react-lightbox](https://github.com/michelecocuccio/simple-react-lightbox)
-    - with the lightbox, you could easily download photos at high-res (with my [fork](https://github.com/kyleawayan/simple-react-lightbox))
+    - with the lightbox, you could easily download photos at high-res (with my ~~[fork](https://github.com/kyleawayan/simple-react-lightbox)~~ *deleted the fork*)
 - automatic light and dark mode switching made with [use-dark-mode](https://github.com/donavon/use-dark-mode)
 
 ## this is still a very early version
